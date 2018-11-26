@@ -9,14 +9,10 @@
  * 		5. Find the inverse of the first matrix and multiply it by the first column of the second matrix
  * 		6. Compute the standard deviation of the diagonal elements of the first and second matrices
  * 
- * Author(s):	Ryan Ellison
- * 				Nekesa Mercy
- * 
- * 
- * Date: 		4/17/2017
+ *
  */
 
-package MatrixProjectOnePackage;
+
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -37,10 +33,11 @@ public class RunMatrix
 		FileWriter fw = new FileWriter(OUTPUTFILE);		// output stream to OUTPUTFILE
 		BufferedWriter bw = new BufferedWriter(fw);		// allow buffering
 		PrintWriter pw = new PrintWriter(bw);
+
 		
 		Matrix mult;	// Matrix for the product of m1 and m2
 		Matrix sum;		// Matrix for the sum of m1 and m2
-		
+
 		Matrix m1 = new Matrix(INPUTFILE1);
 		Matrix m2 = new Matrix(INPUTFILE2);
 		Matrix m1Inverse;

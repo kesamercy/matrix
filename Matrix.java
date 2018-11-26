@@ -12,14 +12,8 @@
  * 		7. Add itself to another given 3x3 matrix
  * 		8. Calculate its transpose
  * 		9. Multiply itself by the column of another given 3x3 matrix
- * 
- * Author(s):	Ryan Ellison
- * 				Nekesa Mercy
- * 
- * Date:		4/15/2017
+ *
  */
-
-package MatrixProjectOnePackage;
 
 //Imports
 import java.io.BufferedReader;			// allows buffering
